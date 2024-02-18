@@ -1,0 +1,35 @@
+{
+  "name": "vision",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:client": "pnpm --filter client run dev",
+    "run:server": "pnpm --filter server run start:dev",
+    "run:share": "pnpm --filter share run dev",
+    "run:release": "pnpm --filter release run dev",
+    "build:client": "pnpm --filter client run build",
+    "build:server": "pnpm --filter server run build",
+    "build:release": "pnpm --filter release run build",
+    "build:share": "pnpm --filter share run build",
+    "start:server": "pnpm --filter server run start:prod",
+    "start:release": "pnpm --filter release run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/node": "20",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.3.0",
+    "antd": "^5.14.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

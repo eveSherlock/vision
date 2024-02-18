@@ -1,0 +1,1 @@
+export const sharePnpm = "share公共组件"
